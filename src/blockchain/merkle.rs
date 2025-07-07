@@ -50,12 +50,10 @@ impl MerkleTree {
     }
 }
 
-
 #[cfg(test)]
 mod tests {
     use super::*;
-    use crate::blockchain::transaction::Transaction;
-    use hex_literal::hex; // optional, helps with readable hashes
+    use crate::blockchain::transaction::Transaction; // optional, helps with readable hashes
 
     #[test]
     fn test_merkle_root_4_leaves() {
