@@ -7,5 +7,5 @@ pub struct Block {
 
 pub struct BlockHeader {
     pub merkle_root: Vec<u8>, // Only merkle root for now
-    // Later: timestamp, nonce, previous hash, etc.
+                              // Later: timestamp, nonce, previous hash, etc.
 }
