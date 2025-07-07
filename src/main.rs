@@ -1,3 +1,4 @@
 fn main() {
-    println!("Hello, world!");
+    // Minimal logic; maybe print version or call a test harness.
+    println!("Blockchain ToyNode initialized.");
 }
