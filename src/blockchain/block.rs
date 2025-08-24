@@ -1,11 +1,14 @@
 use super::transaction::Transaction;
-
-pub struct Block {
+use serde::{Serialize, Deserialize};
+#[derive(Debug, Serialize, Deserialize)]
+pub struct BlockHeader{
+    pub previous_hash: String,
+    pub merkle_root: String,
+    pub timestamp: i64,
+    pub nonce: u64,
+}
+#[derive(Debug, Serialize, Deserialize)]
+pub struct Block{
     pub header: BlockHeader,
     pub transactions: Vec<Transaction>,
-}
-
-pub struct BlockHeader {
-    pub merkle_root: Vec<u8>, // Only merkle root for now
-                              // Later: timestamp, nonce, previous hash, etc.
 }
