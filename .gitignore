@@ -1,1 +1,24 @@
-node_modules/
+# Rust / Cargo
+target/
+**/*.rs.bk
+Cargo.lock   # (optional, include if this is a library crate, not a binary project)
+
+# Criterion benchmarks
+/target/criterion/
+
+# Backup / temp files
+*.log
+*.tmp
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.iml
+
+# OS junk
+ehthumbs.db
+Desktop.ini
