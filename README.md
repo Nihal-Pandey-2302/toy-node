@@ -11,7 +11,7 @@ The first component is a robust Merkle Tree implementation. A Merkle Tree provid
 1. **Clone the repository:**
 
     ```bash
-    git clone [your-repo-link]
+    git clone [https://github.com/Nihal-Pandey-2302/toy-node]
     cd toy-node
     ```
 
